@@ -12,3 +12,51 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+  margin: 1rem;
+}
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem;
+}
+.thumbnail-container:hover {
+  text-decoration: none;
+}
+
+.thumbnail-img {
+  max-width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+}
+
+.info-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.description {
+  min-height: 10rem;
+}
+.product-img {
+  max-width: 20rem;
+  margin-right: 2rem;
+}

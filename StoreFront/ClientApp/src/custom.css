@@ -56,6 +56,9 @@ code {
 .description {
   min-height: 10rem;
 }
+.category {
+  color: slategrey;
+}
 .product-img {
   max-width: 20rem;
   margin-right: 2rem;

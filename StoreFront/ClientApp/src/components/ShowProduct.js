@@ -4,6 +4,7 @@ import ProductInfo from "./ProductInfo";
 
 const ShowProduct = () => {
   const { id } = useParams();
+
   const [productData, setProductData] = useState(null);
   const [loading, setLoading] = useState(true);
 
